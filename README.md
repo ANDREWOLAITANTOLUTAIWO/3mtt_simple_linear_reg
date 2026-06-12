@@ -1,10 +1,10 @@
-#**Simple Linear Regression – Marketing ROI**
+**Simple Linear Regression – Marketing ROI**
 
 **Project Overview**
 
 In this project, we analyze a marketing dataset using Python and statsmodels to build a Simple Linear Regression model. We learn how to prepare data, select predictive variables, implement OLS regression, validate model assumptions, and interpret statistical outputs to drive business decisions. This project helps to understand how data science translates raw data into actionable marketing insights.
 
-#Interpreting R-squared, coefficients, and p-values in business context
+**Interpreting R-squared, coefficients, and p-values in business context**
 
 **R-squared (0.993): Business Impact**
 
@@ -22,12 +22,12 @@ This suggests that TV advertising is a very efficient and powerful channel for g
 
 **Social_Media (Coefficient: 0.0554, not statistically significant):** The positive coefficient suggests a potential increase in sales, but its lack of statistical significance (p-value of 0.385, much greater than 0.05) is crucial. In a business context, this means that, given the presence of TV and Radio advertising, we cannot confidently say that Social Media advertising has a statistically significant, independent impact on Sales. While it might contribute, its effect is too small or too noisy to be distinguished from zero within this model. This doesn't necessarily mean social media is ineffective overall, but rather that its direct and independent contribution to sales, when TV and Radio are also active, isn't clear from this model. It might be contributing in conjunction with other channels, or its impact might be harder to quantify directly with this linear model.
 
-P-values: Confidence in Our Decisions
+**P-values: Confidence in Our Decisions**
 
 TV and Radio (p-values: 0.000): The extremely low p-values for TV and Radio advertising mean that there's a virtually zero chance that their observed positive impact on sales is due to random chance. This gives us high confidence in allocating resources to these channels and expecting a positive return.
 Social_Media (p-value: 0.385): The high p-value for Social Media advertising indicates that there's a 38.5% chance that the observed positive effect is just random noise. This means we cannot be confident that increased spending on Social Media alone will directly lead to a statistically significant increase in sales, if TV and Radio are already present. From a business decision-making standpoint, this suggests that simply increasing social media spend might not yield the expected direct sales lift, and a more nuanced strategy or further investigation might be needed for this channel.
 
-Overall Business Implications:
+**Overall Business Implications:**
 
 **Prioritize TV and Radio:** The model strongly suggests that TV and Radio are highly effective advertising channels for driving sales. Businesses should consider maintaining or even increasing investment in these areas where appropriate.
 
